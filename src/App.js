@@ -34,8 +34,26 @@ onNameChange=(event)=>{
         alt="The BridgelabzLogo: a bridge to employement through tab works"/>
       </div>
       <div>
-        <input onChange={this.onNameChange}/>
+    
+        <input  onChange={this.onNameChange}/>
+
         <span className="error-output">{this.state.nameError}</span>
+      </div>
+      <div>
+<p>At BridgeLabz, we're a techie community of</p>
+<ul>
+<li>technologists</li>
+<li>thinkers</li>
+<li>builders</li>
+</ul>
+<p>Working together to keep the Tech Employability of Engineers alive and accessible,
+so Tech Companies worldwide can get contributors and creators for Technology Solutions.
+We believe this act of human collaboration across an employability platform is essential 
+to individual growth and our collective future.
+</p>
+
+<p>To know about us, visit <a href="https://www.bridgelabz.com/">Bridge Labz</a>
+to learn even more about our mission i.e. <strong> Employability to all</strong>.</p>
       </div>
       </div>
     );
