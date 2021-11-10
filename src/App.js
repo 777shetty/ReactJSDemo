@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+import react from 'react'
 import './App.css';
-import React from 'react';
+import logo from './assets/img/Bridgelabzlogo.png'
 
 class App extends React.Component{
 constructor(){
@@ -13,6 +13,8 @@ constructor(){
     return(
       <div>
         <h1>{this.state.title}</h1>
+        <img src={logo}
+        alt="The BridgelabzLogo: a bridge to employement through tab works"/>
       </div>
     );
   }
